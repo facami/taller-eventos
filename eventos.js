@@ -1,6 +1,12 @@
 const miDiv = document.getElementById('miDiv');
+const miBoton = document.getElementById('miBoton');
 
-// evento div
+// Evento div
 miDiv.addEventListener('click', () => {
-  alert('¡Hola! Soy el div');
+    alert('¡Hola! Soy el div');
+});
+
+// Evento botón
+miBoton.addEventListener('click', () => {
+    alert('¡Hola!');
 });
